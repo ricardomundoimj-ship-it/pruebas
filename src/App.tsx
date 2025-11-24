@@ -1,11 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Cotizador from './pages/Cotizador'
 import './App.css'
-import MediaVariants from './components/MediaVariants'
 
 function App() {
   return (
-    <div className="w-full h-screen bg-white flex items-center justify-center p-8">
-      <MediaVariants />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cotizador" element={<Cotizador />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
