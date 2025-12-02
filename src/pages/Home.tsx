@@ -13,6 +13,14 @@ const projects = [
     available: true,
   },
   {
+    id: "gestion-tarifas",
+    title: "Gestión de Tarifas",
+    description: "Sistema de gestión y administración de tarifas de medios publicitarios",
+    icon: BarChart3,
+    color: "from-indigo-500 to-indigo-600",
+    available: true,
+  },
+  {
     id: "facturacion",
     title: "Facturación",
     description: "Módulo completo para generar y gestionar facturas electrónicas",

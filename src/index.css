@@ -39,3 +39,87 @@
   }
 }
 
+/* Estilos para barras de scroll - Color azul según diseño */
+/* Firefox - Sin hover */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3658C1 #f7f8fa;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #3658C1 #f7f8fa;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #3658C1 #f7f8fa;
+}
+
+/* WebKit (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f7f8fa !important;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #3658C1 !important;
+  background-color: #3658C1 !important;
+  background-image: none !important;
+  border-radius: 4px;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  opacity: 1 !important;
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #3658C1 !important;
+  background-color: #3658C1 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  opacity: 1 !important;
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: #3658C1 !important;
+  background-color: #3658C1 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  opacity: 1 !important;
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+}
+

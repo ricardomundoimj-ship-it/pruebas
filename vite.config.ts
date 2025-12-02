@@ -15,16 +15,10 @@ export default defineConfig({
     },
   },
   server: {
-    host: 'localhost',
-    port: 3002,
+    host: true,
+    port: 5173,
     open: true,
-    strictPort: true,
-    watch: {
-      usePolling: false,
-    },
-    hmr: {
-      overlay: true,
-    },
+    strictPort: false,
   },
 })
 
